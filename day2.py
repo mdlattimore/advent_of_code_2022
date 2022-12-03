@@ -1,5 +1,6 @@
 from day2_data import guide_matrix
 
+
 A = 'rock1'
 B = 'paper1'
 C = 'scissors1'
@@ -40,7 +41,6 @@ for play in guide_matrix:
         plays += 1
 
 print(score)
-
 
 # Part 2
 score = 0

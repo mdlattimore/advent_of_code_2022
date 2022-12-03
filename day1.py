@@ -1,7 +1,7 @@
 from day1_data import data
 
-# Part 1
 
+# Part 1
 totals = []
 for entry in data:
     new = entry.split("\n")
@@ -18,8 +18,8 @@ for n in new_totals:
 # Solution for Part 1
 print(max(sums))
 
-# Part 2
 
+# Part 2
 sums.sort()
 
 # Solution for Part 2

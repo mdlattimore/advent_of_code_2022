@@ -2,6 +2,7 @@ import string
 from day3_data import data
 letters = string.ascii_letters
 
+
 # Part 1
 total = 0
 for line in data:
@@ -15,7 +16,6 @@ for line in data:
 
 print(total)
 
-
 # Part 2
 aggregate = []
 total = 0
@@ -25,7 +25,6 @@ while data:
     aggregate.append(a)
     del data[0:3]
     
-
 for group in aggregate:
     a = set(group[0]) & set(group[1]) & set(group[2])
     b = next(iter(a))

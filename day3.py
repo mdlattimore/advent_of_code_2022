@@ -15,10 +15,11 @@ for line in data:
 
 print(total)
 
-aggregate = []
 
 # Part 2
+aggregate = []
 total = 0
+
 while data:
     a = data[0:3]
     aggregate.append(a)

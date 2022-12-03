@@ -65,5 +65,3 @@ for play in guide_matrix:
         score += 7
 
 print(score)
-
-    

@@ -1,5 +1,5 @@
 from day4_data import data
-print(type(data))
+
 data2 = [w.split(',') for w in data]
 
 # Part 1 and Setup

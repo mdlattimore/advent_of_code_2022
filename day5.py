@@ -19,11 +19,12 @@ for move in scrubbed_data:
     for i in range(move[0]):
         a = stacks[move[1]].pop()
         stacks[move[2]].append(a)
-        print()
-    move_num += 1
-    for stack in stacks:
-        print(stack)
-    print(move_num)
+        # print()
+    # # Diagnostic
+    # move_num += 1
+    # for stack in stacks:
+    #     print(stack)
+    # print(move_num)
 
 # Part 1 Solution
 for n in stacks[1:]:

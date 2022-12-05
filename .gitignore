@@ -1,3 +1,5 @@
 *.ipynb
 .env/
 __pycache__/
+*_sample.py 
+

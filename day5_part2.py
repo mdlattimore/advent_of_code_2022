@@ -1,7 +1,7 @@
 from day5_data import scrubbed_data
 
 
-#Starting stacks
+# Starting stacks. See notes in day5.py for more info
 
 one = "Q M G C L".split()
 two = "R D L C T F H G".split()
@@ -15,7 +15,6 @@ nine = "Z F H G".split()
 
 stacks = [[], one, two, three, four, five, six, seven, eight, nine]
 
-
 for move in scrubbed_data:
     number = move[0]
     from_stack = move[1]
@@ -24,8 +23,9 @@ for move in scrubbed_data:
     del stacks[from_stack][-number:]
     for value in a:
         stacks[to_stack].append(value)
+
+    # Diagnostic    
     # print()
-    # # Diagnostic
     # for stack in stacks:
     #     print(stack)
 

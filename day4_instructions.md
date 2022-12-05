@@ -57,5 +57,7 @@ So, in this example, the number of overlapping assignment pairs is 4.
 
 In how many assignment pairs do the ranges overlap?
 
-Your puzzle answer was 847.
+Your puzzle answer was 847.  
+
+Skills: String manipulation, string replacement, type conversion, set operations: subsets
 

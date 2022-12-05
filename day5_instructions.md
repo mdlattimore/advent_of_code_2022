@@ -135,4 +135,7 @@ The accompanying data file contains only the moves. You also need the starting c
 [M] [D] [J] [F] [F] [N] [C] [S] [F]
 [Q] [R] [V] [J] [N] [R] [H] [G] [Z]
  1   2   3   4   5   6   7   8   9 
- ```
+ ```   
+
+
+ Skills: String manipulation. Lists: traversing lists, using lists as stacks (LIFO) and stack (list) operations (del and append)

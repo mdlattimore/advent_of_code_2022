@@ -1,7 +1,7 @@
 from day6_data import data
 
 # Function to evaluate whether a list of characters constitutes a set. Compares length of the list to length of a set of that list. If equal, list constitutes a set.
-def isset(n):
+def isset(n: list) -> bool:
     if len(n) == len(set(n)):
         return True
     else:

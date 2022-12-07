@@ -1,4 +1,4 @@
-# NOT my solution. This one stumped me. This code is from https://github.com/PetchyAL/AoC2022/blob/main/solutions/day7/day7.py I'm including it here only so I can come back and break it down.
+# NOT my solution. This one stumped me. This code is from https://github.com/PetchyAL/AoC2022/blob/main/solutions/day7/day7.py I'm including it here only so I can come back and break it down. See also https://www.reddit.com/r/adventofcode/comments/zesk40/2022_day_7_solutions/ for other solutions (some of which are very creative). NOTE: I did submit my answers to be sure the code worked. By that time, the Leaderboard had long been set. My submissions were numbers 29859 for Part 1 and 27844 for Part 2. 
 
 from string import digits
 from day7_data import data
@@ -48,3 +48,5 @@ for n in sort_vals:
   if n >= space_needed:
     print(n)
     break
+
+
